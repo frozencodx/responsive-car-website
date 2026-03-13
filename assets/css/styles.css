@@ -208,7 +208,47 @@ img {
 
 
 /*=============== HOME ===============*/
+.home {
+  position: relative;
+  overflow: hidden;
+}
 
+.home__container {
+  position: relative;
+  padding-top: 4rem;
+  row-gap: 3rem;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home__data {
+  font-size: var(--h1-font-size);
+  margin-bottom: 1rem;
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+}
+
+.home__elec {
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+}
+
+.home__elec i {
+  color: var(--first-color);
+}
+
+.home__img {
+  width: 280px;
+}
 
 /* Button animate */
 
